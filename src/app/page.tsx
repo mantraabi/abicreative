@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef, ReactNode } from "react";
+import { projects } from "@/data/projects";
 
 // ==================== HOOKS ====================
 function useInView(threshold = 0.15) {
@@ -213,25 +214,6 @@ function Hero() {
 
 // ==================== PROJECTS ====================
 function Projects() {
-  const projects = [
-    {
-      name: "Tulisin", url: "https://www.tulisin.my.id",
-      tagline: "AI Copywriting untuk UMKM",
-      description: "Platform AI yang membantu pelaku UMKM membuat caption jualan, deskripsi produk, dan konten marketing dalam hitungan detik.",
-      tech: ["Next.js", "Turso", "Duitku", "Vercel"],
-      features: ["AI Copywriting", "Export Multi-Format", "Payment Gateway", "Template Library"],
-      icon: "✍️", accent: "#be3f00",
-    },
-    {
-      name: "SoalKu", url: "https://soalku.vercel.app",
-      tagline: "Platform Generate Soal untuk Guru",
-      description: "Solusi cerdas untuk guru dan sekolah dalam membuat soal ujian, kuis, dan bank soal dengan dukungan AI.",
-      tech: ["Next.js 15", "Turso", "Duitku", "NextAuth"],
-      features: ["Generate Soal AI", "Bank Soal", "Quiz Online", "Sekolah Mode"],
-      icon: "📝", accent: "#cc8800",
-    },
-  ];
-
   return (
     <section id="proyek" className="section-dark py-24 px-8">
       <div className="max-w-[1200px] mx-auto">
