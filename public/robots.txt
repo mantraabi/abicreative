@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abicreative.id/sitemap.xml

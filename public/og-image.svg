@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#1a0f05"/>
+  <rect x="60" y="60" width="1080" height="510" rx="8" fill="none" stroke="#f8e9d1" stroke-opacity="0.1" stroke-width="1"/>
+  
+  <!-- Grid lines -->
+  <line x1="300" y1="60" x2="300" y2="570" stroke="#f8e9d1" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="600" y1="60" x2="600" y2="570" stroke="#f8e9d1" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="900" y1="60" x2="900" y2="570" stroke="#f8e9d1" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="60" y1="200" x2="1140" y2="200" stroke="#f8e9d1" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="60" y1="340" x2="1140" y2="340" stroke="#f8e9d1" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="60" y1="480" x2="1140" y2="480" stroke="#f8e9d1" stroke-opacity="0.03" stroke-width="1"/>
+  
+  <!-- Logo -->
+  <text x="100" y="140" font-family="sans-serif" font-weight="700" font-size="28" fill="#f8e9d1" letter-spacing="1">ABI</text>
+  <rect x="165" y="115" width="65" height="20" fill="none" stroke="#f8e9d1" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="197" y="131" font-family="sans-serif" font-weight="600" font-size="11" fill="#f8e9d1" fill-opacity="0.6" text-anchor="middle" letter-spacing="1">CREATIVE</text>
+  
+  <!-- Main heading -->
+  <text x="100" y="310" font-family="sans-serif" font-weight="700" font-size="64" fill="#f8e9d1">Membangun produk</text>
+  <text x="100" y="390" font-family="sans-serif" font-weight="700" font-size="64" fill="#be3f00">digital bermakna.</text>
+  
+  <!-- Subtitle -->
+  <text x="100" y="450" font-family="sans-serif" font-weight="400" font-size="20" fill="#f8e9d1" fill-opacity="0.5">Web Development • AI Integration • SaaS</text>
+  
+  <!-- URL -->
+  <text x="100" y="530" font-family="sans-serif" font-weight="500" font-size="16" fill="#f8e9d1" fill-opacity="0.3">abicreative.id</text>
+  
+  <!-- Accent dot -->
+  <circle cx="1100" cy="140" r="6" fill="#be3f00"/>
+</svg>

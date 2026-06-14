@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #f8e9d1;
+  --color-cream-light: #fff6e0;
+  --color-dark: #1a0f05;
+  --color-orange: #be3f00;
+  --color-amber: #cc8800;
+  --color-muted: #8a7a6a;
+  --color-border: rgba(26, 15, 5, 0.1);
+}
+
+@layer base {
+  :root {
+    --background: #f8e9d1;
+    --foreground: #1a0f05;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--background);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #c4b090;
+    border-radius: 3px;
+  }
+}
+
+@layer components {
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 12px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    border: 1px solid var(--foreground);
+    border-radius: 0;
+  }
+
+  .badge--filled {
+    background: var(--foreground);
+    color: var(--background);
+    border-color: var(--foreground);
+  }
+
+  .vrail {
+    position: absolute;
+    left: -40px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: rgba(26, 15, 5, 0.15);
+  }
+
+  .divider {
+    height: 1px;
+    background: rgba(26, 15, 5, 0.12);
+  }
+
+  .section-dark {
+    background: var(--color-dark);
+    color: #f8e9d1;
+  }
+
+  .section-dark .badge {
+    border-color: #f8e9d1;
+    color: #f8e9d1;
+  }
+
+  .section-dark .divider {
+    background: rgba(248, 233, 209, 0.12);
+  }
+
+  .animate-rise {
+    animation: rise 0.6s ease-out forwards;
+    opacity: 0;
+  }
+
+  .delay-100 { animation-delay: 0.1s; }
+  .delay-200 { animation-delay: 0.2s; }
+  .delay-300 { animation-delay: 0.3s; }
+  .delay-400 { animation-delay: 0.4s; }
+  .delay-500 { animation-delay: 0.5s; }
+
+  .hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(26, 15, 5, 0.08);
+  }
+
+  .grid-bg {
+    background-image:
+      linear-gradient(rgba(26, 15, 5, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(26, 15, 5, 0.04) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
