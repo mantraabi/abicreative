@@ -32,6 +32,17 @@ export const projects: Project[] = [
     icon: "📝",
     accent: "#cc8800",
   },
+  {
+    name: "CBT Sekolah",
+    url: "https://github.com/mantraabi/cbt-sekolah",
+    tagline: "Ujian Online untuk Sekolah",
+    description:
+      "Sistem Computer Based Test (CBT) untuk sekolah. Mendukung ujian pilihan ganda, esai, PG kompleks, dan menjodohkan. Dilengkapi monitoring real-time, anti-cheat, dan sistem lisensi.",
+    tech: ["Express.js", "Vue 3", "MySQL", "Socket.IO", "Tailwind"],
+    features: ["Multi Tipe Soal", "Monitoring Real-time", "Anti-Cheat", "Sistem Lisensi", "Export Excel", "Koreksi Otomatis"],
+    icon: "🏫",
+    accent: "#2563eb",
+  },
   // Tambah proyek baru di sini
   // {
   //   name: "ProyekBaru",

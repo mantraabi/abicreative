@@ -195,7 +195,7 @@ function Hero() {
           <Animate delay={0.4}>
             <div className="lg:pl-12 lg:border-l border-[#1a0f05]/10 space-y-8">
               {[
-                { num: "2+", label: "Proyek Aktif" },
+                { num: "3+", label: "Proyek Aktif" },
                 { num: "10K+", label: "Pengguna" },
                 { num: "99.9%", label: "Uptime" },
               ].map((s) => (
@@ -332,7 +332,7 @@ function About() {
               <div className="grid grid-cols-2 gap-8">
                 {[
                   { label: "Founded", value: "2025" },
-                  { label: "Proyek", value: "2+" },
+                  { label: "Proyek", value: "3+" },
                   { label: "Pengguna", value: "10K+" },
                   { label: "Uptime", value: "99.9%" },
                 ].map((s) => (
