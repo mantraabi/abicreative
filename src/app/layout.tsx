@@ -22,6 +22,9 @@ export const metadata: Metadata = {
     images: ["/og-image.svg"],
   },
   metadataBase: new URL("https://abicreative.id"),
+  verification: {
+    google: "3R7pD2Yg6AIfx-4NMcFIm-xkufwDMKnSxlaScseUYXE",
+  },
 };
 
 export default function RootLayout({

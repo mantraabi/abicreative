@@ -519,6 +519,13 @@ function Contact() {
                     </svg>
                     Threads
                   </a>
+                  <a href="https://t.me/abicreativelabs" target="_blank" rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-4 py-2.5 border border-[#1a0f05]/15 text-[13px] font-medium text-[#1a0f05] hover:border-[#be3f00] hover:text-[#be3f00] transition-colors">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.95 7.47l-1.97 9.28c-.15.67-.54.83-1.09.52l-3.02-2.22-1.46 1.4c-.16.16-.3.3-.61.3l.22-3.06 5.56-5.02c.24-.22-.05-.33-.37-.14L8.68 13.3l-2.97-.93c-.65-.2-.66-.65.14-.96l11.6-4.47c.54-.2 1.01.13.83.96l-.33-.43z"/>
+                    </svg>
+                    Telegram
+                  </a>
                 </div>
               </div>
             </Animate>
@@ -602,6 +609,8 @@ function Footer() {
           <div className="flex items-center gap-6">
             <a href="https://github.com/mantraabi" target="_blank" rel="noopener noreferrer"
               className="text-[12px] text-[#f8e9d1]/30 hover:text-[#f8e9d1] transition-colors uppercase tracking-wider">GitHub</a>
+            <a href="https://t.me/abicreativelabs" target="_blank" rel="noopener noreferrer"
+              className="text-[12px] text-[#f8e9d1]/30 hover:text-[#f8e9d1] transition-colors uppercase tracking-wider">Telegram</a>
             <a href="https://www.tulisin.my.id" target="_blank" rel="noopener noreferrer"
               className="text-[12px] text-[#f8e9d1]/30 hover:text-[#f8e9d1] transition-colors uppercase tracking-wider">Tulisin</a>
             <a href="https://soalku.vercel.app" target="_blank" rel="noopener noreferrer"
