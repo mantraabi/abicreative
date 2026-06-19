@@ -75,7 +75,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-[20px] font-bold text-[#1a0f05] mb-3">7. Kontak</h2>
             <p>
-              Untuk pertanyaan terkait syarat dan ketentuan, hubungi kami di hello@abicreative.id.
+              Untuk pertanyaan terkait syarat dan ketentuan, hubungi kami di hello@abicreative.web.id.
             </p>
           </section>
         </div>

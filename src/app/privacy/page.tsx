@@ -61,7 +61,7 @@ export default function PrivacyPage() {
             <h2 className="text-[20px] font-bold text-[#1a0f05] mb-3">5. Hak Anda</h2>
             <p>
               Anda berhak untuk mengakses, memperbarui, atau menghapus data pribadi Anda. Hubungi kami
-              di hello@abicreative.id untuk permintaan terkait data Anda.
+              di hello@abicreative.web.id untuk permintaan terkait data Anda.
             </p>
           </section>
 

@@ -494,7 +494,7 @@ function Contact() {
                   <span className="text-[#be3f00]">◎</span>
                   <div>
                     <span className="font-semibold">Email</span>
-                    <p className="text-[#8a7a6a]">hello@abicreative.id</p>
+                    <p className="text-[#8a7a6a]">hello@abicreative.web.id</p>
                   </div>
                 </div>
               </div>
