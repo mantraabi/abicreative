@@ -576,7 +576,7 @@ function Footer() {
   return (
     <footer className="section-dark py-16 px-8">
       <div className="max-w-[1200px] mx-auto">
-        <div className="grid md:grid-cols-3 gap-12 mb-12">
+        <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div>
             <div className="text-[20px] font-bold tracking-tight mb-4">
               Abi<span className="ml-2 px-2 py-[2px] text-[10px] border border-[#f8e9d1]/30 align-super">CREATIVE</span>
