@@ -103,11 +103,12 @@ function Navbar() {
   }, []);
 
   const links = [
-    { label: "Proyek", href: "#proyek" },
-    { label: "Tentang", href: "#tentang" },
-    { label: "Layanan", href: "#layanan" },
-    { label: "Testimoni", href: "#testimoni" },
-    { label: "Kontak", href: "#kontak" },
+    { label: "Proyek", href: "/#proyek" },
+    { label: "Tentang", href: "/#tentang" },
+    { label: "Layanan", href: "/#layanan" },
+    { label: "Blog", href: "/blog" },
+    { label: "Testimoni", href: "/#testimoni" },
+    { label: "Kontak", href: "/#kontak" },
   ];
 
   return (
@@ -598,6 +599,12 @@ function Footer() {
             <div className="space-y-3">
               <a href="/privacy" className="block text-[14px] text-[#f8e9d1]/40 hover:text-[#f8e9d1] transition-colors">Privacy Policy</a>
               <a href="/terms" className="block text-[14px] text-[#f8e9d1]/40 hover:text-[#f8e9d1] transition-colors">Terms of Service</a>
+            </div>
+          </div>
+          <div>
+            <h4 className="text-[11px] uppercase tracking-[1px] font-semibold text-[#f8e9d1]/50 mb-4">Blog</h4>
+            <div className="space-y-3">
+              <a href="/blog" className="block text-[14px] text-[#f8e9d1]/40 hover:text-[#f8e9d1] transition-colors">Semua Artikel</a>
             </div>
           </div>
         </div>
